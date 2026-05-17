@@ -40,8 +40,7 @@ By @dzxorr
 
 thread = 10
 
-password = open("top-830_MCR.txt", "r").read()
-
+password = open("indonesia.txt", "r", errors="ignore").read()
 class Brute:
     def __init__(self, url):
         self.url = url
